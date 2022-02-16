@@ -112,7 +112,7 @@ public class Handler {
                 continue;
             }
             if (playerTheirID == null) {
-                unusedIDs.add("As sender: " + myID);
+                unusedIDs.add("As reciever: " + myID);
                 continue;
             }
             playerMyID.addCompare(playerTheirID, liking);
